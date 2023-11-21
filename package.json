@@ -1,0 +1,16 @@
+{
+  "name": "subgraph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/Mladen2023/subgraph.git",
+  "author": "Mladen2023 <141485845+Mladen2023@users.noreply.github.com>",
+  "license": "MIT",
+  "workspaces": [
+    "subgraphs/**/*"
+  ],
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.25.1",
+    "@graphprotocol/graph-ts": "0.24.1"
+  }
+}

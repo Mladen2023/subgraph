@@ -1,0 +1,11 @@
+type UserEntity @entity {
+  id: ID!
+  amount: BigInt!
+  count: BigInt!
+  trading: BigInt!
+}
+
+type TradingEntity @entity {
+  id: ID!
+  amount: BigInt!
+}
